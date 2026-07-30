@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contatti - Pro Loco Montiglio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Contatti e informazioni ufficiali dell'Associazione Turistica Pro Loco di Montiglio APS." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <img src="assets/proloco-montiglio-logo.png" alt="Logo Pro Loco di Montiglio" />
+        <span>Pro Loco Montiglio</span>
+      </a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">Chi siamo</a>
+        <a href="organization.html">Organizzazione</a>
+        <a href="events.html">Eventi</a>
+        <a href="contact.html">Contatti</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-light">
+      <div class="container contact-grid">
+        <div>
+          <h1>Contatti ufficiali</h1>
+          <p>Usa le informazioni qui sotto per metterti in contatto con l'Associazione Turistica Pro Loco di Montiglio APS.</p>
+
+          <div class="info-block">
+            <h2>Email ufficiale</h2>
+            <p><a href="mailto:prolocomontiglio@yahoo.it">prolocomontiglio@yahoo.it</a></p>
+          </div>
+
+          <div class="info-block">
+            <h2>Telefono</h2>
+            <p><a href="tel:+393398330008">339 8330008</a></p>
+          </div>
+
+          <div class="info-block">
+            <h2>Indirizzo fisico</h2>
+            <p>Piazza Umberto I n. 1, 14026 Montiglio Monferrato (AT)</p>
+          </div>
+<img class="section-photo" src="assets/foto/PortaleComune.jpeg" alt="Portale del Comune di Montiglio Monferrato" />
+          <div class="info-block">
+            <h2>Sito web indicato nei dati dell'ente</h2>
+            <p><a href="https://www.comune.montigliomonferrato.at.it">www.comune.montigliomonferrato.at.it</a></p>
+          </div>
+        </div>
+
+        <form id="contact-form" class="contact-form">
+          <label for="name">Nome</label>
+          <input id="name" name="name" type="text" placeholder="Nome" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="Email" required />
+
+          <label for="message">Messaggio</label>
+          <textarea id="message" name="message" rows="5" placeholder="Scrivi qui il tuo messaggio" required></textarea>
+
+          <button type="submit">Invia richiesta</button>
+          <p id="form-status" class="form-status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>Associazione Turistica Pro Loco di Montiglio APS</p>
+      <p>Pagina contatti ufficiale con informazioni di riferimento.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

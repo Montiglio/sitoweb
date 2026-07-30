@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pro Loco Montiglio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Associazione Turistica Pro Loco di Montiglio APS - cultura, turismo e tradizioni del territorio." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <img src="assets/proloco-montiglio-logo.png" alt="Logo Pro Loco di Montiglio" />
+        <span>Pro Loco Montiglio</span>
+      </a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">Chi siamo</a>
+        <a href="organization.html">Organizzazione</a>
+        <a href="events.html">Eventi</a>
+        <a href="contact.html">Contatti</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <img class="hero-logo" src="assets/proloco-montiglio-logo.png" alt="Logo Pro Loco di Montiglio" />
+        <h1>Associazione Turistica Pro Loco di Montiglio APS</h1>
+        <p>Promuoviamo il territorio di Montiglio Monferrato, le sue tradizioni culturali, turistiche ed enogastronomiche dal 1988.</p>
+        <a class="button" href="about.html">Scopri di più</a>
+      </div>
+    </section>
+
+    <section id="about" class="section-light">
+      <div class="container">
+        <h2>Chi siamo</h2>
+        <p>La Pro Loco opera a favore dello sviluppo sociale e turistico del Comune di Montiglio Monferrato, valorizzando le realtà naturalistiche, culturali, storiche e sociali del territorio.</p>
+        <p>Tra le iniziative storiche figurano la Fiera Nazionale del Tartufo, Golosaria nel Monferrato, la Festa Patronale di San Lorenzo e attività di valorizzazione delle pievi, dei castelli e delle tradizioni locali.</p>
+        <a class="text-link" href="events.html">Guarda gli eventi</a>
+        <img class="section-photo" src="assets/foto/stazione.jpg" alt="Stazione di Montiglio Monferrato" />
+      </div>
+    </section>
+
+    <section id="contact" class="section-light">
+      <div class="container contact-grid">
+        <div>
+          <h2>Contattaci</h2>
+          <p>Per informazioni sugli eventi, sul turismo o per collaborare con la Pro Loco di Montiglio, scrivici o vieni a trovarci.</p>
+          <ul>
+            <li>Email: <a href="mailto:prolocomontiglio@yahoo.it">prolocomontiglio@yahoo.it</a></li>
+            <li>Telefono: <a href="tel:+393398330008">339 8330008</a></li>
+            <li>Sede legale: Piazza Umberto I n. 1, 14026 Montiglio Monferrato (AT)</li>
+          </ul>
+        </div>
+        <form id="contact-form" class="contact-form">
+          <label for="name">Nome</label>
+          <input id="name" name="name" type="text" placeholder="Nome" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="Email" required />
+
+          <label for="message">Messaggio</label>
+          <textarea id="message" name="message" rows="5" placeholder="Scrivi qui il tuo messaggio" required></textarea>
+
+          <button type="submit">Invia richiesta</button>
+          <p id="form-status" class="form-status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>Associazione Turistica Pro Loco di Montiglio APS</p>
+      <p>Un sito web creato per promuovere cultura, turismo e storia locale.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
