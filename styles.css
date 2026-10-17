@@ -231,6 +231,24 @@ p {
   background: #f3f4f6;
 }
 
+.event-card--document {
+  grid-column: 1 / -1;
+}
+
+.event-document-pages {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f3f4f6;
+}
+
+.event-card--document .event-document-pages img {
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: contain;
+  background: #fff;
+}
+
 .event-card-content {
   padding: 1rem;
 }
